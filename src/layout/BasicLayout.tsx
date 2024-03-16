@@ -43,7 +43,7 @@ function BasicLayout() {
             </AppShell.Navbar>
             <AppShell.Main>
                 <Outlet />
-                <AppShell.Section p="md">Footer</AppShell.Section>
+                {/* <AppShell.Section p="md">Footer</AppShell.Section> */}
             </AppShell.Main>
             <AppShell.Aside p="md">
                 <BadgeCard />
