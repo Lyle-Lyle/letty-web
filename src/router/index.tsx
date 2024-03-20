@@ -2,6 +2,7 @@ import BasicLayout from '@/layout/BasicLayout';
 import Home from '@/pages/home/index';
 import Profile from '@/pages/profile';
 import Test from '@/pages/test';
+import Search from '@/pages/search';
 import { createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -24,6 +25,14 @@ const router = createBrowserRouter([
             {
                 path: '/profile',
                 element: <Profile />,
+            },
+            {
+                path: '/search',
+                element: <Search />,
+            },
+            {
+                path: '/search/tabs/:tabValue',
+                element: <Search />,
             },
         ],
     },
